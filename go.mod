@@ -1,4 +1,4 @@
-module github.com/thesephist/cornelia
+module github.com/yuyangchee98/cornelia
 
 go 1.14
 
