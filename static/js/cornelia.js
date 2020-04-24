@@ -107,9 +107,9 @@ class App extends Component {
         if (this.state === LOADED) {
             return jdom`<div class="state--loaded">
                 <a href="/">
-                    <h1>1989.style</h1>
+                    <h1>Guess that Beatles song</h1>
                 </a>
-                <p>Guess the correct Taylor Swift song from a line from the track!</p>
+                <p>Guess the correct Beatles song from a line from the track!</p>
                 <button class="block startButton"
                     onclick="${evt => {
                         this.state = PLAYING;
@@ -118,13 +118,12 @@ class App extends Component {
                         this.next();
                     }}">🎤 Start!</button>
                 <p>
-                    This project is <a href="https://github.com/thesephist/cornelia" target="_blank">open source</a>
-                    and pulls from over 120 of Taylor Swift's singles, collaborations, and other chart-topping songs
-                    across her amazing songwriting history. It's dedicated to my friend Van, who's the single
-                    biggest Swiftie I know, and somehow always knows more T-Swift lyrics than I manage to remember.
+                    This project is <a href="https://github.com/yuyangchee98/cornelia" target="_blank">open source</a>
+                    and forked from <a href="https://github.com/thesephist/cornelia" target="_blank">thesephist's Cornelia</a>.
+                    It includes 50 of The Beatles' top tracks.
                 </p>
                 <p class="right-align">
-                    a project by <a href="https://thesephist.com" target="_blank">linus</a>
+                a project by <a href="https://thesephist.com" target="_blank">Yu Yang Chee</a>. Forked from <a href="https://github.com/thesephist/cornelia">Cornelia</a>.
                 </p>
             </div>`;
         }
@@ -194,7 +193,7 @@ class App extends Component {
                         Start over
                     </button>
                     <p>
-                        a project by <a href="https://thesephist.com" target="_blank">linus</a>
+                        a project by <a href="https://thesephist.com" target="_blank">Yu Yang Chee</a>
                     </p>
                 </div>
             </div>

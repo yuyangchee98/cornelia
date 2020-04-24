@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/thesephist/cornelia/pkg/cornelia"
+	"https://github.com/yuyangchee98/cornelia"
 )
 
 func main() {

@@ -4,8 +4,9 @@ body {
 }
 
 body {
-    --block-accent-color: #da86d2;
-    background: #efceeb;
+    background: #2b2e2d;
+    background-image: linear-gradient(90deg, transparent 50%, #dddac8 50%);
+    background-size: 400px 400px;
 }
 
 body,
@@ -25,6 +26,7 @@ button {
     left: 50%;
     top: 50vh;
     transform: translate(-50%, -50%);
+    background-color: #dddac8;
 }
 
 a {
@@ -32,6 +34,7 @@ a {
 }
 
 /* LOADED state */
+
 
 .startButton {
     font-size: 2em;
